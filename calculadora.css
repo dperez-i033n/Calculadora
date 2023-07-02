@@ -17,8 +17,12 @@ table , th , td , caption{
 button{
 
     width: 75px;
+    cursor: pointer;
     height: 75px;
     font-size: 25px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    border-radius: 90%;
 }
 
 /*aplicando estilos a la pantalla*/
@@ -36,4 +40,5 @@ button{
     justify-content: center;
     align-items: center;
     margin-top: 10%;
+    border: 0;
 }
